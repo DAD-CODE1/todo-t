@@ -1,0 +1,122 @@
+body {
+    background-color: var(--main-bg-color);
+}
+:root {
+    --main-bg-color: #bb1aa5;
+}
+.navbar {
+    background-color: var(--main-bg-color);
+}
+.dsds{
+    max-height:370px;
+    min-height:360px;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: bisque;
+}
+.navbar-brand:hover {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(238, 169, 84);
+}
+.navbar-nav a {
+    color: bisque;
+}
+.navbar-nav a:hover {
+    color: rgb(238, 169, 84);
+    font-size: 1.1rem;
+}
+.navbar-toggler {
+    color: bisque;
+}
+.basic-header {
+    height: auto; /* 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.add-todo {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 7px 20px rgba(224, 6, 6, 0.4), 
+    0 0 30px rgba(224, 6, 6, 0.3), 
+    0 0 40px rgba(224, 6, 6, 0.2);
+    max-width: 100%;
+    min-width: 100%;
+   
+}
+.basic-header h1{
+    color: var(--main-bg-color);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form-label{
+    color: var(--main-bg-color);
+    font-weight: bold;
+}
+.form-control {
+color: var(--main-bg-color); /* لون النص داخل حقل الإدخال */
+border: 2px solid #ddd; /* إضافة حدود خفيفة لحقل الإدخال */
+}
+.form-control:focus {
+outline: none; /* إزالة التحديد الافتراضي */
+box-shadow: 0 0 5px var(--main-bg-color); /* تأثير توهج عند التركيز */
+border-color: var(--main-bg-color); /* تغيير لون الحدود عند التركيز */
+}
+.btn{
+background-color: var(--main-bg-color);
+color: bisque;
+border: solid 1px #bb1aa5;
+transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+font-weight: bold;
+}
+.btn:hover{
+background-color: bisque;
+color: var(--main-bg-color);
+border: solid 1px var(--main-bg-color);
+}
+.btn1{
+background-color: #e761d5;
+color: bisque;
+border: solid 1px #bb1aa5;
+transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+font-weight: bold;
+}
+.btn1:hover{
+background-color: bisque;
+color: var(--main-bg-color);
+border: solid 1px var(--main-bg-color);
+}
+.link-ring{
+text-decoration: none;
+color: var(--main-bg-color);
+margin-right: 10px;
+font-weight: bold;
+}
+.link-ring:hover{
+text-decoration: none;
+color: var(--main-bg-color);
+margin-right: 10px;
+}
+.input-group {
+position: relative;
+}
+.input-group .eye-icon {
+position: absolute;
+right: 0.5rem;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+color: var(--main-bg-color);
+}
+span{
+color:rgb(238, 169, 84) ;
+margin-left: 10px;
+}
+h5{
+color: bisque;
+}
